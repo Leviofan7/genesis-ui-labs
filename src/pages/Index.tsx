@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { AnimatedBackground } from "@/components/AnimatedBackground";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -17,6 +18,7 @@ import {
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <AnimatedBackground />
       <Header />
       
       {/* Hero Section */}
